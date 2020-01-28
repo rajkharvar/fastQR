@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- CDN for QR generation -->
+    <link rel="stylesheet" href="css/index.css">
+    <title>FastQR</title>
+  </head>
+  <body>
+    <h1>FastQR<div style="display: inline;"><img src="icon16.png" class="logo"/></div></h1>
+    <h3>Fastest text to QR converter</h3>
+    <div class="qr-container">
+      <canvas class="qr"></canvas>
+    </div>
+    <input type="text" class="input" id="text" placeholder="Enter text">
+    <script src="qrious.min.js"></script>
+    <script src="index.js"></script>   
+  </body>
+</html>

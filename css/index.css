@@ -1,0 +1,29 @@
+body {
+  width: 420px;
+  height: 420px;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+
+#text {
+  width: 80%;
+  height: 30px;
+  font-size: 1.2rem;
+  outline: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+.logo {
+  margin-top: 2px;
+}
+
